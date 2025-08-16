@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Upkraft/static/css/main.ea8e7d89.css",
+    "main.js": "/Upkraft/static/js/main.a1a2d704.js",
+    "static/js/453.5c6a4a06.chunk.js": "/Upkraft/static/js/453.5c6a4a06.chunk.js",
+    "index.html": "/Upkraft/index.html",
+    "main.ea8e7d89.css.map": "/Upkraft/static/css/main.ea8e7d89.css.map",
+    "main.a1a2d704.js.map": "/Upkraft/static/js/main.a1a2d704.js.map",
+    "453.5c6a4a06.chunk.js.map": "/Upkraft/static/js/453.5c6a4a06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8e7d89.css",
+    "static/js/main.a1a2d704.js"
+  ]
+}
