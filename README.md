@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Upkraft Dashboard
+
+Live site: https://rakun-3045.github.io/Upkraft/
+
+This is a responsive React dashboard built per the provided design template. It includes:
+- Sidebar navigation
+- Tutor profile card
+- 3x2 KPI stats tiles
+- Upcoming lessons table
+- Semi-circle performance gauges (course and student)
+- Feedback pending card
+- "Refer and Earn" banner with CTA
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -28,6 +39,24 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Builds the app and publishes the `build` folder to the `gh-pages` branch for GitHub Pages.
+
+Deployment details:
+- `homepage` in `package.json` is set to `https://rakun-3045.github.io/Upkraft`
+- Scripts:
+	- `predeploy`: `npm run build`
+	- `deploy`: `gh-pages -d build`
+  
+After pushing to `main`, run:
+
+```
+npm run deploy
+```
+
+GitHub Pages will serve from the `gh-pages` branch automatically.
 
 ### `npm run eject`
 
