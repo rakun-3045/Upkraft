@@ -1,0 +1,74 @@
+.refer-card {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  border-radius: 16px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 320px;
+  position: relative;
+  overflow: hidden;
+}
+
+.refer-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.refer-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.refer-content p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.refer-btn {
+  background: #fbbf24;
+  color: #1e293b;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.refer-btn:hover {
+  background: #f59e0b;
+  transform: translateY(-1px);
+}
+
+.refer-image {
+  width: 110px;
+  height: 90px;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.refer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.refer-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+  z-index: 1;
+}
